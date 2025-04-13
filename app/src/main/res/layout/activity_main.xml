@@ -162,6 +162,7 @@
         android:layout_marginBottom="15dp"
         android:text="Propina"
         android:textStyle="bold"
+        android:checked="true"
         app:layout_constraintBottom_toTopOf="@+id/tv_total"
         app:layout_constraintStart_toStartOf="parent" />
 

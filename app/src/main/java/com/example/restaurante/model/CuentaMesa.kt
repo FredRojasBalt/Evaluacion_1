@@ -15,7 +15,7 @@ class CuentaMesa(val mesa: Int) {
         _items.add(itemMesa)
     }
 
-    private fun calcularSinPropina(): Int{
+    fun calcularSinPropina(): Int{
         return _items.sumOf { it.calcularSubTotal() }
     }
 
